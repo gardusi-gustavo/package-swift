@@ -1,0 +1,18 @@
+{
+  "rank": "2.1",
+  "title": "Document Apple platform boundaries",
+  "context": "The core must stay cross-platform.",
+  "limits": {
+    "max_commits": 5,
+    "max_file_changes": 4
+  },
+  "spec": {
+    "summary": "Document which APIs are Linux-safe and which are Apple-only.",
+    "expected_outcome": "Contributors keep Apple-only code out of the core.",
+    "acceptance_criteria": [
+      "Boundaries are explicit",
+      "Examples are separated"
+    ]
+  },
+  "attempts": []
+}

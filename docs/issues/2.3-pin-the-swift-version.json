@@ -1,0 +1,18 @@
+{
+  "rank": "2.3",
+  "title": "Pin the Swift version",
+  "context": "Swift toolchains differ across platforms.",
+  "limits": {
+    "max_commits": 5,
+    "max_file_changes": 4
+  },
+  "spec": {
+    "summary": "Pin the Swift version in CI and docs.",
+    "expected_outcome": "CI and docs use the same version.",
+    "acceptance_criteria": [
+      "Version is pinned",
+      "Upgrade policy is documented"
+    ]
+  },
+  "attempts": []
+}

@@ -1,0 +1,18 @@
+{
+  "rank": "1.1",
+  "title": "Add a Swift concurrency example",
+  "context": "The package should demonstrate modern Swift concurrency.",
+  "limits": {
+    "max_commits": 5,
+    "max_file_changes": 4
+  },
+  "spec": {
+    "summary": "Add an async/await example with structured concurrency.",
+    "expected_outcome": "The example builds and tests on Linux.",
+    "acceptance_criteria": [
+      "Example builds on Linux",
+      "Cancellation is documented"
+    ]
+  },
+  "attempts": []
+}

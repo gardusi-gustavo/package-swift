@@ -1,0 +1,18 @@
+{
+  "rank": "1.2",
+  "title": "Add a Codable round-trip",
+  "context": "JSON handling is a common package need.",
+  "limits": {
+    "max_commits": 5,
+    "max_file_changes": 4
+  },
+  "spec": {
+    "summary": "Add a Codable model and round-trip test.",
+    "expected_outcome": "Consumers can encode and decode the model.",
+    "acceptance_criteria": [
+      "Round-trip test passes",
+      "Errors are typed"
+    ]
+  },
+  "attempts": []
+}

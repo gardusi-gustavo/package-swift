@@ -1,0 +1,18 @@
+{
+  "rank": "2.2",
+  "title": "Add performance tests",
+  "context": "No performance baseline exists.",
+  "limits": {
+    "max_commits": 5,
+    "max_file_changes": 4
+  },
+  "spec": {
+    "summary": "Add XCTest performance tests for chunking.",
+    "expected_outcome": "Regressions are visible.",
+    "acceptance_criteria": [
+      "Baselines are recorded",
+      "Tests run in CI"
+    ]
+  },
+  "attempts": []
+}
